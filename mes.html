@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Notas del mes</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="container">
+
+  <a href="index.html" class="volver">← Volver</a>
+  <h1 id="titulo-mes"></h1>
+  <h2>Nueva nota</h2>
+
+  <p id="errores"></p>
+
+  <form id="form-nota">
+    <input type="text" id="titulo" placeholder="Título">
+    <textarea id="descripcion" placeholder="Descripción"></textarea>
+    <button type="submit">Guardar</button>
+  </form>
+
+  <h2>Notas del mes</h2>
+  <ul id="lista-notas"></ul>
+
+</div>
+
+<script src="js/app_mes.js"></script>
+
+</body>
+</html>
